@@ -1,0 +1,13 @@
+class Solution{
+    static long factorial(int N){
+        // code here
+        long t=1;
+        for(long i=1;i<=N;i++)
+        {
+            t=t*i;
+        }
+        return t;
+    }
+}
+
+//https://practice.geeksforgeeks.org/problems/factorial5739/1
